@@ -1,4 +1,4 @@
-.sticky_global {
+.sticky_global_any_contact_box {
 	display: block;
 
 	position: sticky; /* sticky prevents the popup from covering the dynamic year ender */

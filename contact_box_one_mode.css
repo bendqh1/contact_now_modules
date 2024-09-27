@@ -42,7 +42,6 @@
 	vertical-align: middle;
 
 	width: var(--minoris);
-	height: var(--minoris);
 	max-width: var(--minoris);
 	max-height: var(--minoris);
 
@@ -56,8 +55,6 @@
 
 .voip_link {
 	display: inline-block;
-	height: var(--majoris);
-	max-height: var(--majoris);
 
 	transition: none !important;
 	box-shadow: none !important;

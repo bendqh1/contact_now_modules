@@ -60,12 +60,6 @@
 	color: #fff;
 }
 
-.globalrs_dynamic_year {
-	padding-bottom: var(--majoris);
-	font-weight: bold;
-	color: #fff;
-}
-
 @media screen and (min-width: 999px) {
 
 	.sticky_global_any_contact_box {

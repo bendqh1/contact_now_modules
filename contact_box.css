@@ -10,6 +10,7 @@
 	padding-top: 5px;
 	padding-bottom: 5px;
 
+    text-align: center;
 	text-decoration: none;
 	font-weight: bold;
 
@@ -29,26 +30,9 @@
 	color: #fff;
 }
 
-.sticky_global_any_contact_box {
-	display: block;
-
-	margin-top: 10px;
-	margin-bottom: 10px;
-
-	text-align: center;
-}
-
 .voip_wrapper {
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-
-.voip_link {
-	display: inline-block;
-	transition: none !important;
-	box-shadow: none !important;
-	text-decoration: none !important;
-	color: #fff;
 }
 
 .voip_icon {
@@ -66,6 +50,14 @@
 .voip_text {
 	display: inline;
 	vertical-align: middle;
+}
+
+.voip_link {
+	display: inline-block;
+	transition: none !important;
+	box-shadow: none !important;
+	text-decoration: none !important;
+	color: #fff;
 }
 
 .globalrs_dynamic_year {

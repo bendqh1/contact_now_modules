@@ -1,7 +1,33 @@
+:root {
+    --contactBGColor: blue;
+}
+
+.sticky_bar_heading_wrapper {
+	display: block;
+
+	position: sticky;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2147483646;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+    text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+
+	background: var(-contactBGColor);
+}
+.sticky_bar_heading_wrapper > * {
+	color: #fff;
+}
+
 .sticky_global_any_contact_box {
 	display: block;
 
-	position: sticky; /* sticky prevents the popup from covering the dynamic year ender */
+	position: sticky;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -14,8 +40,9 @@
 	text-decoration: none;
 	font-weight: bold;
 
-	background: blue;
+	background: var(-contactBGColor);
 }
+.sticky_bar_heading_wrapper
 
 .sticky_bar_heading_wrapper {
 	text-align: center;

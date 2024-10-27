@@ -18,9 +18,15 @@
 	text-decoration: none;
 	font-weight: bold;
 
-	background: var(-contactBGColor);
+	background: var(--contactBGColor);
 }
 .sticky_bar_heading_wrapper > * {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: initial;
+	font-size: initial;
 	color: #fff;
 }
 
@@ -40,7 +46,7 @@
 	text-decoration: none;
 	font-weight: bold;
 
-	background: var(-contactBGColor);
+	background: var(--contactBGColor);
 }
 .sticky_bar_heading_wrapper
 

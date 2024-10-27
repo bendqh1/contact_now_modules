@@ -61,6 +61,8 @@
 }
 
 .voip_wrapper {
+	display: flex;
+	justify-content: space-between;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -90,6 +92,7 @@
 	color: #fff;
 }
 
+/*
 @media screen and (min-width: 999px) {
 
 	.sticky_global_any_contact_box {
@@ -118,3 +121,4 @@
 	}
 
 }
+*/

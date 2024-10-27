@@ -2,6 +2,25 @@
 	--contactBGColor: blue;
 }
 
+.sticky_global_any_contact_box {
+	display: block;
+
+	position: sticky;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 200;
+
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+    text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+
+	background: var(--contactBGColor);
+}
+
 .sticky_bar_heading {
 	display: block;
 
@@ -11,10 +30,8 @@
 	left: 0;
 	z-index: 100;
 
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 0;
-	padding-bottom: 0;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
 
 	line-height: initial;
 
@@ -27,35 +44,15 @@
 	color: #fff;
 }
 
-.sticky_global_any_contact_box {
-	display: block;
-
-	position: sticky;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 200;
-
-	padding-top: 5px;
-	padding-bottom: 5px;
-
-    text-align: center;
-	text-decoration: none;
-	font-weight: bold;
-
-	background: var(--contactBGColor);
-}
-
 .always_flex {
+	border-top: 1px solid #fff;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .voip_wrapper {
-	display: flex;
-	justify-content: space-between;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .voip_icon {
@@ -83,33 +80,8 @@
 	color: #fff;
 }
 
-/*
 @media screen and (min-width: 999px) {
-
-	.sticky_global_any_contact_box {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-
-	.voip_icon {
-		width: var(--majoris);
-		height: var(--majoris);
-		max-width: var(--majoris);
-		max-height: var(--majoris);
-	}
-
-	.voip_link {
-		height: var(--majoris);
-		max-height: var(--majoris);
-	}
-
 	.voip_link:hover {
-		color: #000;
+		color: var(--actionColor);
 	}
-
 }
-*/

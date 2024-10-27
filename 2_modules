@@ -1,0 +1,17 @@
+<div class="telegram_contact">
+    <div class="voip_wrapper">
+        <a href="https://t.me/example" class="voip_link">
+            <span class="voip_text">benaharoni</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="voip_call_icon" class="voip_icon"></img>
+        </a>
+    </div>
+</div>
+
+<div class="whatsapp_contact">
+    <div class="voip_wrapper">
+        <a href="https://wa.me/WHATSAPP_NUMBER_PATTERN" class="voip_link">
+            <span dir="ltr" class="voip_text">+972-0584-750-900</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="voip_call_icon" class="voip_icon"></img>
+        </a>
+    </div>
+</div>

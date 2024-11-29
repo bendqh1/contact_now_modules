@@ -5,6 +5,6 @@ file_to_change='/home/hanekudai/public_html/benaharoni.com/web/core/themes/olive
 cd www && cd benaharoni.com
 wget https://raw.githubusercontent.com/bendqh1/contact_now_modules/refs/heads/main/index.html'
 sed '133 r index.html' $file_to_change 
-cat $file_to_change
+cat --number $file_to_change
 rm index.html
 ```

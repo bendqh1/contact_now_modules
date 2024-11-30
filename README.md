@@ -1,3 +1,10 @@
+Put the following HTML code here:
+
+> /home/hanekudai/public_html/benaharoni.com/web/core/themes/olivero/templates/layout
+
+## Code
+
+```html
 <!-- contact box module without indentations -->
 
 <div class="sticky_global_any_contact_box">
@@ -29,3 +36,4 @@
 </div>
 
 <!-- contact box module without indentations -->
+```

@@ -1,6 +1,6 @@
 Put the following HTML code here:
 
-> /home/hanekudai/public_html/benaharoni.com/web/core/themes/olivero/templates/layout
+> /home/hanekudai/public_html/benaharoni.com/web/core/themes/olivero/templates/layout/page.html.twig
 
 ## Code
 

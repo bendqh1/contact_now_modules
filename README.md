@@ -9,7 +9,7 @@ Put the following HTML code here:
 
 <div class="sticky_global_any_contact_box">
 
-<h2 class="sticky_bar_heading">להשאיר לי הודעה 24 שעות</h2>
+<h2 class="sticky_bar_heading">לייעוץ ראשוני חינם</h2>
 
 <div class="always_flex">
 

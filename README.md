@@ -13,11 +13,19 @@ Put the following HTML code here:
 
 <div class="always_flex">
 
+<div class="telephone_contact">
+<div class="voip_wrapper">
+<a href="tel:0584750900" class="voip_link">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ISO_7001_PI_PF_017.svg" alt="telephone" class="voip_icon"></img>
+<div class="voip_text">טלפון</div>
+</a>
+</div>
+
 <div class="telegram_contact">
 <div class="voip_wrapper">
 <a href="https://t.me/benaharoni" class="voip_link">
 <span class="voip_text">טלגרם</span>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="voip_call_icon" class="voip_icon"></img>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="telegram" class="voip_icon"></img>
 </a>
 </div>
 </div>
@@ -26,7 +34,7 @@ Put the following HTML code here:
 <div class="voip_wrapper">
 <a href="https://wa.me/9720584750900" class="voip_link">
 <span dir="ltr" class="voip_text">וואטסאפ</span>
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="voip_call_icon" class="voip_icon"></img>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="whatsapp" class="voip_icon"></img>
 </a>
 </div>
 </div>

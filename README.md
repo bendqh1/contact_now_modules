@@ -24,7 +24,7 @@ Put the following HTML code here:
 <div class="telegram_contact">
 <div class="voip_wrapper">
 <a href="https://t.me/benaharoni" class="voip_link">
-<span class="voip_text">טלגרם</span>
+<span dir="ltr" class="voip_text">טלגרם</span>
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="telegram" class="voip_icon"></img>
 </a>
 </div>

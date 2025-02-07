@@ -16,8 +16,8 @@ Put the following HTML code here:
 <div class="telephone_contact">
 <div class="voip_wrapper">
 <a href="tel:0584750900" class="voip_link">
+<span dir="ltr" class="voip_text">טלפון</span>
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ISO_7001_PI_PF_017.svg" alt="telephone" class="voip_icon"></img>
-<div class="voip_text">טלפון</div>
 </a>
 </div>
 

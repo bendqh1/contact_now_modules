@@ -17,7 +17,7 @@ Put the following HTML code here:
 <div class="voip_wrapper">
 <a href="tel:0584750900" class="voip_link">
 <span dir="ltr" class="voip_text">0584-750-900</span>
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ISO_7001_PI_PF_017.svg" alt="telephone" class="voip_icon"></img>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ISO_7001_PI_PF_017.svg" alt="telephone" style="background: transparent" class="voip_icon"></img>
 </a>
 </div>
 

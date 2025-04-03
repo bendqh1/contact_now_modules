@@ -46,3 +46,7 @@ Put the following HTML code here:
 
 <!-- contact box module without indentations -->
 ```
+
+## Legacy codes
+
+Some legacy codes can be found [here](https://github.com/bendqh1/javascript/tree/b708e205d27ded2565b1721a6067046a4f748ddd/contact_boxes) (deleted content).

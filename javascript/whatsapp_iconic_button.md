@@ -31,9 +31,9 @@ newStyle.innerHTML +=`
         text-decoration: none !important;
     }
     .jcb_phone_icon {
-        width: 50px;
-        height: 50px;
-        vertical-align: middle;
+        width: 60px;
+        height: 60px;
+	max-width: unset;
     }
 `;
 

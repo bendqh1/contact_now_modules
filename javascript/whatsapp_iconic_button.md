@@ -15,7 +15,7 @@ newStyle.innerHTML +=`
         display: block;
         position: fixed;
         bottom: 22.5px;
-        left: 22.5px;
+        left: -22.5px; // Note the minus.
         z-index: 2147483647;
         width: 10%;
         height: 60px;
@@ -34,6 +34,12 @@ newStyle.innerHTML +=`
         width: 60px;
         height: 60px;
 	max-width: unset;
+    }
+
+    @media screen and (max-width: 999px) {
+        .jcb_button {
+            left: 50px;
+        }
     }
 `;
 

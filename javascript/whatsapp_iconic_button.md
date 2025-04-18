@@ -38,7 +38,7 @@ newStyle.innerHTML +=`
 
     @media screen and (max-width: 999px) {
         .jcb_button {
-            left: 50px;
+            left: 50px; // Fix Drupal Olivero outside_viewport escape.
         }
     }
 `;

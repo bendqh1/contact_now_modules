@@ -1,1 +1,1 @@
-document.head.appendChild(newStyle);
+As in the base file in the root directory.

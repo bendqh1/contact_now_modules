@@ -11,5 +11,9 @@ newStyle = document.createElement("style");
 newStyle.type = "text/css";
 newStyle.innerHTML +=`
   CODE COMES HERE
+`;
+```
+
+```js
 document.head.appendChild(newStyle);
 ```

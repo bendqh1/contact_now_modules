@@ -2,8 +2,8 @@
     display: block;
     position: fixed;
     bottom: 22.5px;
-    left: -22.5px; // Note the minus.
-    z-index: 2147483647;
+    left: 0;
+    z-index: 9999;
     width: 10%;
     height: 60px;
     text-align: center;

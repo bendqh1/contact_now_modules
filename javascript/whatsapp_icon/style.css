@@ -2,7 +2,7 @@
     display: block;
     position: fixed;
     bottom: 22.5px;
-    left: -22.5px; // Note the minus.
+    left: 0;
     z-index: 2147483647;
     width: 10%;
     height: 60px;

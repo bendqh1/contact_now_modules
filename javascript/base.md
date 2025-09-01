@@ -1,10 +1,12 @@
+## HTML in JavaScript
+
 ```js
 document.body.insertAdjacentHTML('beforeend', `
   CODE COMES HERE
 `);
 ```
 
-and
+## CSS in JavaScript
 
 ```css
 newStyle = document.createElement("style");
@@ -13,6 +15,8 @@ newStyle.innerHTML +=`
   CODE COMES HERE
 `;
 ```
+
+## JavaScript appending
 
 ```js
 document.head.appendChild(newStyle);

@@ -1,5 +1,5 @@
 <aside class="jcb_button">
     <a class="jcb_phone_link" href="tel:+9720584750900">
-        <img class="jcb_phone_icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"></img>
+        <img class="jcb_phone_icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" />
     </a>
 </aside>

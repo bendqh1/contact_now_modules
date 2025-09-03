@@ -9,7 +9,7 @@ document.body.insertAdjacentHTML('beforeend', `
 ## CSS in JavaScript
 
 ```css
-newStyle = document.createElement("style");
+const newStyle = document.createElement("style");
 newStyle.type = "text/css";
 newStyle.innerHTML +=`
   CODE COMES HERE

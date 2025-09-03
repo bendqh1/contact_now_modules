@@ -3,8 +3,8 @@
     position: fixed;
     bottom: 22.5px;
     left: 0;
-    z-index: 2147483647;
-    width: 10%;
+    z-index: 9999;
+    width: auto;
     height: 60px;
     text-align: center;
     text-decoration: none;
@@ -20,11 +20,11 @@
 .jcb_phone_icon {
     width: 60px;
     height: 60px;
-max-width: unset;
+    max-width: unset;
 }
 
 @media screen and (max-width: 999px) {
     .jcb_button {
-        left: 50px; // Fix Drupal Olivero outside_viewport escape.
+        left: 50px; /* Fix Drupal Olivero outside_viewport escape. */
     }
 }

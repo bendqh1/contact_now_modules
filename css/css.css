@@ -2,7 +2,7 @@
 	--contactBGColor: blue;
 }
 
-.sticky_global_any_contact_box {
+.sticky_global_any_contact_box_js {
 	display: block;
 
 	position: sticky;
@@ -20,7 +20,7 @@
 	background: var(--contactBGColor);
 }
 
-.sticky_bar_heading {
+.sticky_bar_heading_js {
 	display: block;
 
 	position: sticky;
@@ -43,44 +43,7 @@
 	color: #fff;
 }
 
-.always_flex {
-	border-top: 1px solid #fff;
-	display: flex;
-	justify-content: space-around;
-}
-
-.voip_wrapper {
+.voip_wrapper_js {
 	padding-top: 5px;
 	padding-bottom: 5px;
-}
-
-.voip_icon {
-	display: inline;
-	vertical-align: middle;
-
-	width: var(--minoris);
-	height: var(--minoris);
-	max-width: var(--minoris);
-	max-height: var(--minoris);
-
-	margin-right: 5px;
-}
-
-.voip_text {
-	display: inline;
-	vertical-align: middle;
-}
-
-.voip_link {
-	display: inline-block;
-	transition: none !important;
-	box-shadow: none !important;
-	text-decoration: none !important;
-	color: #fff;
-}
-
-@media screen and (min-width: 999px) {
-	.voip_link:hover {
-		color: var(--actionColor);
-	}
 }

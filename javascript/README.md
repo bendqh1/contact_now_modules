@@ -1,6 +1,6 @@
 # Base
 
-## HTML in JavaScript
+## HTML template (starter)
 
 ```js
 document.body.insertAdjacentHTML('beforeend', `
@@ -8,7 +8,7 @@ document.body.insertAdjacentHTML('beforeend', `
 `);
 ```
 
-## CSS in JavaScript
+## CSS template
 
 ```css
 const newStyle = document.createElement("style");
@@ -18,7 +18,7 @@ newStyle.innerHTML +=`
 `;
 ```
 
-## JavaScript appending
+## JavaScript call (ender)
 
 ```js
 document.head.appendChild(newStyle);

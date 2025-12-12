@@ -1,5 +1,10 @@
 .sticky_global_any_contact_box_js {
-  background: whitesmoke
+  position: fixed;        /* ← this is what really sticks it */
+  bottom: 0;           /* distance from bottom of viewport */
+  left: 0;
+  z-index: 9999;          /* on top of everything */
+  width: 100%;
+  background: whitesmoke;
 }
 
 .sticky_bar_heading_js {
@@ -13,13 +18,19 @@
 }
 
 .voip_link_structure_js {
-  max-width: 100px;
+  display: flex;              /* forces img and text side-by-side */
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+  gap: 8px;                   /* space between icon and text */
+  text-decoration: none;
+  color: inherit;
 }
 
 .voip_icon_js {
-  width: 50px;
+  width: 40px;                /* a bit smaller looks better next to text */
+  height: 40px;
+  flex-shrink: 0;             /* prevents squashing */
 }
 
 .voip_text_js {
-  text-align: center;
-}
+  text-align: center;}
